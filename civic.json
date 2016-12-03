@@ -1,0 +1,23 @@
+{
+  "name": "Code Corps",
+  "status": "Beta",
+  "thumbnailUrl": "https://d3pgew4wbk2vb1.cloudfront.net/projects/1/thumb.png?v=1474089806",
+  "bornAt": "",
+  "geography": [],
+  "politicalEntity":"",
+  "type":"Web App",
+  "needs": [
+    {"need": "Ember developer"},
+    {"need": "Phoenix developer"},
+    {"need": "Open source evangelist"}
+  ],
+  "categories": [
+    {"category": "Open Source"},
+    {"category": "Developer productivity"}
+  ],
+  "tags": [
+    "open source",
+    "project management",
+    "tech for good"
+  ]
+}
