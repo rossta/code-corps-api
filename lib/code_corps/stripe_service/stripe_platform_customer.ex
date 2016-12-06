@@ -17,9 +17,6 @@ defmodule CodeCorps.StripeService.StripePlatformCustomerService do
     end
   end
 
-  @doc """
-
-  """
   def update(%StripePlatformCustomer{id_from_stripe: id_from_stripe} = customer, attributes) do
     with {:ok, %Stripe.Customer{} = stripe_customer} <- @api.Customer.update(id_from_stripe, attributes),
          {:ok, params} <- StripePlatformCustomerAdapter.to_params(stripe_customer, attributes),
